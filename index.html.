@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crt Gnik</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #000; color: #fff; }
+        header { text-align: center; padding: 20px; background: #111; }
+        section { margin: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Crt Gnik</h1>
+    </header>
+    <section>
+        <h2>À propos de moi</h2>
+        <p>Je suis Crt, artiste passionné par la musique...</p>
+    </section>
+    <section>
+        <h2>Ma musique</h2>
+        <audio controls>
+            <source src="chanson.mp3" type="audio/mpeg">
+            Votre navigateur ne supporte pas l'élément audio.
+        </audio>
+    </section>
+</body>
+</html>
